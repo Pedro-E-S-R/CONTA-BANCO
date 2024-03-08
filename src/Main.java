@@ -23,5 +23,6 @@ public class Main {
                 " sua agência é %s, conta %d e seu saldo %.2f já está disponível para saque"
         ,nome_cliente,agencia,numero,saldo);
         System.out.println();
+        sc.close();
     }
 }
